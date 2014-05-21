@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('.button').click(function () {
-		var photo = $(this).value();
+		var photo = $(this).val();
 
 	
 	$.ajax({
@@ -22,5 +22,5 @@ function foodPic(photo) {
 			} else {	
 			$('.results').html("<div> We didn't find your food!</div>");
 		}
-		
+
 		};//end foodPic
