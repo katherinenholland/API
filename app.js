@@ -1,6 +1,7 @@
 $(document).ready(function() {
-	$('.button').submit(function () {
+	$('.button').click(function () {
 		var photo = $(this).value();
+
 	
 	$.ajax({
 	dataType: "jsonp",
