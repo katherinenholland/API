@@ -21,4 +21,4 @@ function foodPic(photo) {
 			} else {	
 			$('.results').html("<div> We didn't find your food!</div>");
 		
-		}//end foodPic
+		};//end foodPic
