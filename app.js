@@ -6,7 +6,7 @@ $(document).ready(function() {
 	dataType: "jsonp",
 	url:"http://api.instagram.com/oembed?url=http://instagr.am/p/BUG/",
 	data: data,
-	success: foodPic();
+	success: foodPic(),
 	});		
 	
 	return false;
