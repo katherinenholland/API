@@ -5,8 +5,8 @@ $(document).ready(function() {
 	
 	$.ajax({
 	dataType: "jsonp",
-	url:"http://api.instagram.com/oembed?url=http://instagr.am/p/BUG/",
-	data: data,
+	url:"https://api.instagram.com/v1/tags/search?q=",
+	access_token: 9301596.7d41089.a7f53828b96f43199f0ee424e08e144d,
 	success: foodPic(),
 	});		
 	
