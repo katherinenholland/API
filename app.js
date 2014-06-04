@@ -2,12 +2,12 @@ $(document).ready(function() {
 	$('.button').click(function () {
 		var photo = $(this).val();
 
-	
+	var api_token="9301596.7d41089.a7f53828b96f43199f0ee424e08e144d";
 	$.ajax({
 	dataType: "jsonp",
 	url:"https://api.instagram.com/v1/tags/search?q=",
-	access_token: 9301596.7d41089.a7f53828b96f43199f0ee424e08e144d,
-	success: foodPic(),
+	access_token: api_token,
+	success: foodPic(photo)
 	});		
 	
 	return false;
