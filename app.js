@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	$('.yum').click(function () {
-		var photo = $(this).val();
+	$('.button').click(function () {
+		var photo = $('.yum').val();
 
 	var api_token="9301596.7d41089.a7f53828b96f43199f0ee424e08e144d";
 	$.ajax({
