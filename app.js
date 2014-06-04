@@ -7,7 +7,7 @@ $(document).ready(function() {
 	dataType: "jsonp",
 	url:"https://api.instagram.com/v1/tags/search?q="+ photo + "&" + "access_token=" + api_token,
 	data: api_token,
-	success: foodPic(photo)
+	success: foodPic
 	});		
 	
 	return false;
