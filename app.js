@@ -16,13 +16,17 @@ $(document).ready(function() {
 	
 	}) //end of submit
 
-}); //end of ready
+
 
 function foodPic(photo) {
+			
 			if (photo =='pass') {
+			alert('success');	
 			$('.results').html('<div>' + photo + '</div>');
 			} else if (photo == 'fail') {	
 			$('.results').html("<div> We didn't find your food!</div>");
 		}
 
 		};//end foodPic
+
+	}); //end of ready
