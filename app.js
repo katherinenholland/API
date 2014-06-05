@@ -21,7 +21,7 @@ $(document).ready(function() {
 function foodPic(photo) {
 			if (photo =='pass') {
 			$('.results').html('<div>' + photo + '</div>');
-			} else if (photo == 'pass') {	
+			} else if (photo == 'fail') {	
 			$('.results').html("<div> We didn't find your food!</div>");
 		}
 
