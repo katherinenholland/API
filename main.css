@@ -1,17 +1,17 @@
-*{
-	font-family: 'Rock Salt', cursive;
-}
 
 body {
 	background-image: url("mouth.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	font-family: sans-serif;
 }
 
 header{
 	font-size: 500%;
 	text-align: center;
+	font-family: 'Rock Salt', cursive;
+
 }
 
 div{
