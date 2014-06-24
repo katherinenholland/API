@@ -1,0 +1,30 @@
+*{
+	font-family: 'Rock Salt', cursive;
+}
+
+body {
+	background-image: url("mouth.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header{
+	font-size: 500%;
+	text-align: center;
+}
+
+div{
+	margin-top: 13%;
+	text-align: center;
+}
+
+.yum{}
+.pics{
+}
+.food {}
+.button{}
+.button2{}
+.enter{}
+
+
