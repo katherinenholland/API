@@ -1,6 +1,5 @@
 
 body {
-<<<<<<< HEAD
 	background-image: url('images/mouth.png');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -8,19 +7,8 @@ body {
 	font-family: 'Rock Salt', cursive;
 }
 
-header {
-	font-size: 400%;
-=======
-	background-image: url(img/mouth.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	font-family: sans-serif;
-}
-
 header{
 	font-size: 500%;
->>>>>>> parent of 641dc10... code formatting
 	text-align: center;
 	font-family: 'Rock Salt', cursive;
 }
@@ -30,14 +18,8 @@ div{
 	text-align: center;
 }
 
-<<<<<<< HEAD
 .button, .button2 {
 	background-color: #FFF;
 	cursor: pointer;
 	box-shadow: 2px #F2F2F2;
 }
-=======
-
->>>>>>> parent of 641dc10... code formatting
-
-
