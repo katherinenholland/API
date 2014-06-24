@@ -1,14 +1,14 @@
 
-* {
+body {
+	background-image: url('images/mouth.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-image: url(img/mouth.png);
 	font-family: 'Rock Salt', cursive;
 }
 
 header {
-	font-size: 500%;
+	font-size: 400%;
 	text-align: center;
 }
 
@@ -18,13 +18,9 @@ div {
 }
 
 .button, .button2 {
-	background-color: #FC1501;
-	cursor: pointer;
-}
-
-.yum {
-	border: 1px solid #FC1501;
 	background-color: #FFF;
+	cursor: pointer;
+	box-shadow: 2px #F2F2F2;
 }
 
 .pics {
